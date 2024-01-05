@@ -1,0 +1,12 @@
+# http://editorconfig.org
+root = true
+[*] # Indicates that all documents are applicable
+charset = utf-8 # Set the file character set to utf-8
+indent_style = space # Indent style （tab | space）
+indent_size = 2 # Indent size
+end_of_line = lf # Controls the type of line breaks (lf | cr | crlf)
+# trim_trailing_whitespace = true # Remove any white space characters at the beginning of the line
+insert_final_newline = true # Always insert a new line at the end of the file
+[*.md] # Means only md The following rules apply to this document
+max_line_length = off
+trim_trailing_whitespace = false
