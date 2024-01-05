@@ -5,9 +5,16 @@
   "compilerOptions": {
     "composite": true,
     "noEmit": true,
+    "types": [
+      "vite/client",
+      "vue/ref-macros",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client",
+      "node"
+    ],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
   }
 }
