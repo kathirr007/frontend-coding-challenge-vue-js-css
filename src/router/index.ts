@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import { setupLayouts } from 'virtual:generated-layouts';
 import { useNProgress } from '@vueuse/integrations/useNProgress';
-import generatedRoutes from '@/pages';
+import generatedRoutes from '~pages';
 
 const { start: startProgress, done: stopProgress } = useNProgress();
 const routes = setupLayouts(generatedRoutes);
