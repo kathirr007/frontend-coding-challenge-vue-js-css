@@ -1,6 +1,5 @@
 {
-  /* "extends": "@tsconfig/node18/tsconfig.json", */
-  "extends": "@vue/tsconfig/tsconfig.json",
+  "extends": "@tsconfig/node18/tsconfig.json",
   "include": [
     "vite.config.*",
     "vitest.config.*",
@@ -14,5 +13,11 @@
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "types": ["node"]
+  },
+  "baseUrl": ".",
+  "paths": {
+    "@/*": [
+      "./src/*"
+    ]
   }
 }
