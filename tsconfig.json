@@ -35,5 +35,6 @@
       ]
     }
   },
+  "files": [],
   "references": [{ "path": "./tsconfig.config.json" }]
 }
